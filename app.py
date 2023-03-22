@@ -2,9 +2,6 @@ import gradio as gr
 import openai
 import os
 
-# Load package to use .env variables
-from dotenv import load_dotenv
-load_dotenv()
 
 # Load openai key
 openai.api_key = os.getenv('OPENAI_KEY')
