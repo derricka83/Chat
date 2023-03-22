@@ -30,7 +30,7 @@ def predict_prompt(input):
     return response
 
 # Create UI using gradio
-with gr.Blocks() as chatblock:
+with gr.Blocks(theme='abidlabs/dracula_test') as chatblock:
 
     gr.Markdown("<h1><center>Welcome to Alexis' Personal AI Assistant (powered by OpenAI API)</center></h1>")
 
