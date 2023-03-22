@@ -8,7 +8,7 @@ openai.api_key = os.getenv('OPENAI_KEY')
 
 # Initialize message history array
 message_history = []
-initial_message = "Please write here your prompt and press 'enter'"
+initial_message = "Please write your prompt here and press 'enter'"
 
 # Create function to process prompt and append previous prompts as "context"
 def predict_prompt(input):
@@ -32,7 +32,7 @@ def predict_prompt(input):
 # Create UI using gradio
 with gr.Blocks(theme='abidlabs/dracula_test') as chatblock:
 
-    gr.Markdown("<h1><center>Welcome to Alexis' Personal AI Assistant (powered by OpenAI API)</center></h1>")
+    gr.Markdown("<h1><center>Welcome to my personal AI assistant (powered by OpenAI)</center></h1>")
 
     Chatbot = gr.Chatbot()
     with gr.Row():
