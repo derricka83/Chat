@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+qhysync.sqlite3
+qhysync.sqlite3-shm
+qhysync.sqlite3-wal
+qhysync-export-*.json
+.venv/
